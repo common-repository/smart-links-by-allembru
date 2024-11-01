@@ -1,0 +1,66 @@
+/* CSS Document */
+.aslinks-widget {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DFDFDF;
+    border-radius: 6px 6px 6px 6px;
+    border-style: solid;
+    border-width: 1px;
+    color: #464646;
+    line-height: 1;
+    margin-bottom: 1em;
+    margin-right: 2%;
+    margin-top: 0.5em;
+    position: relative;
+}
+.aslinks-widget h3 {
+    background: url("../img/gray-grad.png") repeat-x scroll 0 0 #DFDFDF;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #464646;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    padding: 7px 9px;
+    text-shadow: 0 1px 0 white;
+}
+.aslinks-widget h3 div {
+	float:right;
+	font-weight:normal;
+	text-decoration:underline;
+	color:#06F;
+	cursor:pointer;
+}
+.aslinks-widget label {
+	display:block;
+	float: left;
+	width:20%;
+	line-height:15px;
+	margin:1px 0 5px 0;
+	padding:3px;
+	font-weight:bold;
+}
+.aslinks-widget input, select {
+	display:block;
+	float: left;
+	width:75%;
+	margin:1px 0 5px 0;
+}
+.aslinks-widget [type=checkbox], 
+.aslinks-widget [type=radio] {
+	display:block;
+	float: left;
+	margin:5px 0 5px 0;
+	width:25px;
+	text-align:left;
+}
+.aslinks-widget [type=button] {
+	width:150px;	
+}
+.aslinks-widget-more {
+	display:none;
+	margin:15px;
+}
+.aslinks-widget-new {
+	margin:15px;
+}

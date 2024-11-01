@@ -1,0 +1,88 @@
+a.aslinks {
+	outline:none;
+}
+a.aslinks strong {
+	line-height:30px;
+}
+a.aslinks:hover {
+	text-decoration:none;
+}
+a.aslinks.ttdark span {
+	z-index:10;
+	display:none;
+	padding:14px 20px 20px 20px;
+	margin-top:30px;
+	margin-left:-160px;
+	min-width:240px;
+	max-width:300px;
+	line-height:16px;
+}
+a.aslinks.ttlight span {
+	z-index:10;
+	display:none;
+	padding:14px 20px 20px 20px;
+	margin-top:-30px;
+	margin-left:15px;
+	min-width:240px;
+	max-width:300px;
+	line-height:16px;
+}
+a.aslinks:hover span{
+	display:inline;
+	position:absolute;
+}
+a.aslinks.ttdark:hover span{
+	border:2px solid #FFF;
+	color:#EEE;
+	background:#000 url(../img/tooltip-bg-dark.png) repeat-x 0 0;
+	background-position:bottom;
+}
+a.aslinks.ttlight:hover span{
+	color:#111;
+	border:1px solid #DCA;
+	background:#fffAF0;
+}
+.aslinks.ttdark span div.ttfirst {
+	z-index:20;
+	position:absolute;
+	border:0;
+	top:-14px;
+	left:120px;
+	width:30px;
+	height:14px;
+	background-image:url(../img/tooltip-point-dark.gif);
+	background-repeat:no-repeat;
+}
+.aslinks.ttlight span div.ttfirst {
+	z-index:20;
+	position:absolute;
+	border:0;
+	top:27px;
+	left:-12px;
+	width:12px;
+	height:22px;
+	background-image:url(../img/tooltip-point-light.gif);
+	background-repeat:no-repeat;
+}
+.aslinks span div.ttlast {
+	display:block;
+	position:absolute;
+	bottom:-2px;
+	right:3px;
+	background-color:#063;
+	height:16px;
+	background:none;
+	font-size:9px;
+	text-align:right;
+	color:#999;
+}
+/*CSS3 extras*/
+a.aslinks span { 
+	border-radius:2px; 
+	-moz-border-radius: 2px; 
+	-webkit-border-radius: 2px; 
+	-moz-box-shadow: 0px 0px 8px 4px #666; 
+	-webkit-box-shadow: 0px 0px 8px 4px #666; 
+	box-shadow: 0px 0px 8px 4px #666; 
+	opacity: 0.97;
+}
